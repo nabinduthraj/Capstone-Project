@@ -1,8 +1,10 @@
 Credit Card Fraud Detection using Machine Learning
+
 📌 Project Overview
 This project focuses on detecting fraudulent credit card transactions using machine learning techniques. Due to the highly imbalanced nature of fraud datasets, advanced preprocessing and model evaluation strategies were applied to improve detection performance.
 
 The project was developed as part of a capstone assignment, demonstrating practical implementation of data preprocessing, model development, and evaluation.
+
 
 📊 Dataset
 Source: ULB Credit Card Fraud Dataset
@@ -11,17 +13,21 @@ Features: 30 (including anonymized features V1–V28, Time, Amount)
 Target Variable:
 0 → Normal transaction
 1 → Fraudulent transaction
+
+
 ⚙️ Project Workflow
 🔹 Week 1: Setup & Data Loading
 Environment setup using Anaconda
 Required libraries installed
 Dataset loaded into Pandas DataFrame
 Initial data inspection performed
+
 🔹 Week 2: Exploratory Data Analysis (EDA)
 Summary statistics generated
 Class imbalance identified
 Data visualization (histograms, boxplots, correlation heatmap)
 Data quality checks (missing values, duplicates, outliers)
+
 🔹 Week 3: Data Preprocessing
 Missing values handled (none found)
 Duplicate records checked and removed
@@ -30,6 +36,7 @@ Feature scaling using StandardScaler
 Class imbalance handled using SMOTE
 Feature engineering (Amount_capped)
 Dataset split into training, validation, and test sets
+
 🔹 Week 4: Model Development & Evaluation
 Implemented multiple models:
 Logistic Regression
@@ -40,6 +47,7 @@ Evaluated models using:
 Confusion Matrix
 Precision, Recall, F1-score
 Performed feature importance analysis
+
 🧠 Model Performance Summary
 Model	Performance
 Random Forest	⭐ Best performance (high precision & recall)
@@ -64,6 +72,7 @@ Monitor transactions continuously
 Flag suspicious transactions instantly
 Trigger alerts for fraud investigation
 Reduce financial losses due to fraud
+
 🛠️ Technologies Used
 Python
 Pandas, NumPy
@@ -71,6 +80,7 @@ Matplotlib, Seaborn
 Scikit-learn
 Imbalanced-learn (SMOTE)
 Jupyter Notebook
+
 📁 Project Structure
 ├── data/ ├── notebooks/ ├── models/ ├── reports/ ├── src/ ├── eda.py ├── main.py ├── model.ipynb ├── requirements.txt └── README.md
 

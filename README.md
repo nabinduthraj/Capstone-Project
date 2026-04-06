@@ -1,4 +1,5 @@
-![CI](https://img.shields.io/github/actions/workflow/status/your-username/credit-card-fraud-detection/main.yml?style=for-the-badge)
+
+
 Credit Card Fraud Detection using Machine Learning
 
 📌 Project Overview
